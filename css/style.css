@@ -1,0 +1,183 @@
+.wed-header{
+	padding: 50px 0 0px 0;
+}
+
+.img-auto{
+	margin: auto;
+}
+.wed-header-b{
+	background: url('../img/symphony.png') repeat;
+}
+.wed-header-c{
+	background: url('../img/testimonial.jpg') repeat;
+	padding: 65px 0;
+}
+#couple{
+	padding-top: 65px;
+}
+.navbar-nav li{
+	font-family: courgette;
+	font-size: 20px;
+	display: inline-block;
+	padding: 8px;
+	float: none !important;
+}
+@media(max-width:767px){
+		.navbar-nav li{
+				display: block;
+		}
+		#wishesform .col-md-12{
+			width: 100%;
+		}
+		#submit-form{
+			width: 50%;
+			margin: 2% 25%;
+		}
+		.pre-text-p{
+			width: 100% !important;
+		}
+	}
+.navbar{
+	background: #fff;
+}
+p.pre-text-p {
+padding: 60px;
+text-align: center;
+font-family: Merriweather;
+font-size: 18px;
+width: 52%;
+margin: auto !important;
+line-height: 32px;
+}
+.head-li-a a{
+	color: #c63274 !important;
+}
+.navbar-nav li a{
+	color: #4b6976;
+	cursor: pointer;
+}
+
+.courgette{
+	font-family: courgette;
+	color: #c63274;
+	font-size: 32px;
+	margin-bottom: 30px;
+}
+
+.about-him{
+	font-family: courgette;
+	color: #4b6976;
+	font-size: 26px;
+	margin: 20px 0;
+}
+.about-her{
+	font-family: courgette;
+	color: #c63274;
+	font-size: 26px;
+	margin: 20px 0;
+}
+
+.merriwether{
+font-family: Merriweather;
+font-size: 16px;
+width: 94%;
+margin: auto;
+}
+.img-art{
+	padding: 70px 0;
+}
+.img-abt{
+	padding: 60px 0;
+}
+.img-family{
+	margin-bottom: 30px;
+}
+.text-plan{
+	color: #4b6976;
+	font-family: courgette;
+	font-size: 32px;
+	margin: 40px auto 15px auto;
+}
+.wedding-dates{
+	padding: 25px 0 20px 0;
+	border-bottom: 1px solid #ddd;
+}
+.wedding-dates-last{
+	padding: 20px 0 0px 0;
+	
+}
+.date-a{
+	font-family: limelight;
+	font-size: 32px;
+	color: #4b6976;
+}
+.date-b{
+	font-family: oswald;
+	font-size: 24px;
+	color: #c63274;
+}
+.date-wedding{
+	font-family: oswald;
+	font-size: 24px;
+	color: #c63274;
+}
+.date-c{
+	font-family: Merriweather;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 24px;
+	color: #4b6976;
+}
+
+.add-a{
+	font-family: Merriweather;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 21px;
+	color: #333;
+	margin-top: 50px;
+}
+.add-b{
+	font-family: Merriweather;
+	font-size: 16px;
+	color: #333;
+}
+.wed-add{
+	padding: 10px 0 40px 0;
+}
+.text-wishes{
+	font-family: courgette;
+	color: #fff;
+	font-size: 32px;
+	padding-bottom: 30px;
+}
+.test-textarea{
+	margin-top: 22px;
+	font-family: open sans, sans-serif;
+	font-size: 16px;
+	color: #999;
+	padding: 10px;
+}
+.test-input{
+	font-size: 16px;
+	height: 45px;
+}
+.btn-grey{
+	margin-top: 20px !important;
+	border-radius: 0;
+	background: #3f5a6e;
+	font-family: courgette;
+	color: #fff;
+}
+.text-bottom{
+	font-family: courgette;
+	font-size: 32px;
+	color: #c63274;
+
+}
+.wed-bottom{
+	margin: 30px 0 -20px 0;
+}
+.img-bottom{
+	margin-top: 30px;
+}
