@@ -26,7 +26,7 @@ $(document).on('click','#submit-form', function() {
         ],
       'autotext': 'true',
       'subject': 'Wedding Wish',
-      'html': $('.name-input').val() + 'Message-' + $('.test-textarea').val()
+      'html': 'Name - ' + $('.name-input').val() + '<br>Message - ' + $('.test-textarea').val()
     }
   }
  }).done(function(response) {
