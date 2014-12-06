@@ -6,26 +6,31 @@ $(document).on('click','.data-target', function(event) {
     }, 700);
 });
 
-$(document).on('click','#submit-form', function(event) {
+$(document).on('click','#submit-form', function() {
+    if ($('.name-input').val() == "" || $('.test-textarea').val() == "" ){
+        alert ('Please do not leave the field empty');
+    }
+    else{
     $.ajax({
-        type: 'POST',
-        url: 'https://mandrillapp.com/api/1.0/messages/send.json',
-        data: {
-            'key': 'MeUOj88xVKjbLEJVG28RWw',
-            'message': {
-                'from_email': $('.name-input').val(),
-                'to': [
-                    {
-                        'email': 'dtekriwal@gmail.com',
-                        'type': 'to'
-                    }
-                ],
-                'autotext': true,
-                'subject': 'Message',
-                'html': $('.test-textarea')
-            }
-        }
-    }).done(function(response) {
-        alert("Thank you for your message");
-    });
+  type: "POST",
+  url: "https://mandrillapp.com/api/1.0/messages/send.json",
+  data: {
+    'key': 'MeUOj88xVKjbLEJVG28RWw',
+    'message': {
+      'from_email': 'dtek@martmobi.com',
+      'to': [
+          {
+            'email': 'dtekriwal@gmail.com',
+            'type': 'to'
+          }
+        ],
+      'autotext': 'true',
+      'subject': 'Wedding Wish',
+      'html': $('.name-input').val() + 'Message-' + $('.test-textarea').val()
+    }
+  }
+ }).done(function(response) {
+   alert('Thank you for your wishes.'); // if you're into that sorta thing
+ });
+}
 });
