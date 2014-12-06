@@ -17,19 +17,21 @@ $(document).on('click','#submit-form', function() {
   data: {
     'key': 'MeUOj88xVKjbLEJVG28RWw',
     'message': {
-      'from_email': 'dtek@martmobi.com',
+      'from_email': 'admin@sahithiandnitish.com',
       'to': [
           {
-            'email': 'dtekriwal@gmail.com',
+            'email': 'sahithi.hamsa@gmail.com',
             'type': 'to'
           }
         ],
       'autotext': 'true',
-      'subject': 'Wedding Wish',
-      'html': 'Name - ' + $('.name-input').val() + '<br>Message - ' + $('.test-textarea').val()
+      'subject': 'Wedding Wishes',
+      'html': 'Hey Sahithi! Someone has dropped a message for you at sahithiandnitish.com <br> <br> Name - ' + $('.name-input').val() + '<br>Message - ' + $('.test-textarea').val()
     }
   }
  }).done(function(response) {
+    $('.name-input').val("");
+    $('.test-textarea').val("");
    alert('Thank you for your wishes.'); // if you're into that sorta thing
  });
 }
